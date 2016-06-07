@@ -1,6 +1,7 @@
 # array_secondary
 
 --
+to use:
 ```
 git clone https://github.com/jeremiahsavage/array_secondary.git
 cd array_secondary
@@ -80,7 +81,7 @@ WorkflowException: Process status is ['permanentFail']
 [jeremiah@wireless-s1-no-150-23-125 array_secondary]$ 
 ```
 
-with fix
+with fix:
 ```
 (p2_fix)[jeremiah@wireless-s1-no-150-23-125 array_secondary]$ cwltool --debug array_secondary_tool.cwl.yaml --bam_path test.bam
 /home/jeremiah/.virtualenvs/p2_fix/bin/cwltool 1.0
